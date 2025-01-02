@@ -1,4 +1,3 @@
-//components/App.js
 
 import '../styles/App.css';
 
