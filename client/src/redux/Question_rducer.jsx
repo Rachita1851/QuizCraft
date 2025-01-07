@@ -1,4 +1,3 @@
-//redux/question_reducer.js
 
 import { createSlice } from "@reduxjs/toolkit";
 
