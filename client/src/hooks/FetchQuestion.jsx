@@ -1,9 +1,9 @@
-//hooks/FetchQuestions.js
+
 
 import { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import { getServerData } from "../helper/helper";
-import * as Action from "../redux/question_reducer";
+import * as Action from "../redux/Question_reducer";
 
 /** fetch question hook to fetch api data and set value to store */
 export const useFetchQestion = () => {

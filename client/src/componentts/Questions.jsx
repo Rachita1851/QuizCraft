@@ -3,7 +3,7 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useFetchQestion } from "../hooks/FetchQuestion";
-import { updateResult } from "../hooks/setResult";
+import { updateResult } from "../hooks/SetResult";
 
 export default function Questions({ onChecked }) {
     const dispatch = useDispatch();

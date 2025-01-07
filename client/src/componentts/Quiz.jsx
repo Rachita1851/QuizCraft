@@ -5,7 +5,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { Navigate } from "react-router-dom";
 import Questions from "./Questions";
 import { MoveNextQuestion, MovePrevQuestion } from "../hooks/FetchQuestion";
-import { PushAnswer } from "../hooks/setResult";
+import { PushAnswer } from "../hooks/SetResult";
 
 export default function Quiz() {
     const [check, setChecked] = useState(undefined);

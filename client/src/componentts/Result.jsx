@@ -13,9 +13,9 @@ import {
 } from "../helper/helper";
 
 /** import actions  */
-import { resetAllAction } from "../redux/question_reducer";
-import { resetResultAction } from "../redux/result_reducer";
-import { usePublishResult } from "../hooks/setResult";
+import { resetAllAction } from "../redux/Question_reducer";
+import { resetResultAction } from "../redux/Result_reducer";
+import { usePublishResult } from "../hooks/SetResult";
 
 export default function Result() {
     const dispatch = useDispatch();

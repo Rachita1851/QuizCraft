@@ -1,7 +1,7 @@
 
 
 import { postServerData } from "../helper/helper";
-import * as Action from "../redux/result_reducer";
+import * as Action from "../redux/Result_reducer";
 
 export const PushAnswer = (result) => async (dispatch) => {
     try {
